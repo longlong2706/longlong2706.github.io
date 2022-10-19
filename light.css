@@ -1,0 +1,57 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+.light {
+    position: absolute;
+    background-image: url('img/LightOn.jpg');
+    background-size: contain;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#box {
+    display: none;
+    width: min(70vh,70vw);
+    height: min(70vh,70vw);
+    position: relative;
+
+}
+
+#ff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 5vh;
+}
+
+#size {
+    height: 3vh;
+    width: 26vw; margin-right: 1vw;
+    padding-left: 4px;
+
+}
+
+#button1 {
+    height: 3vh;
+    width: max(55px,4.5vw);
+    margin-right: 1vw;
+}
+
+#button2 {
+    height: 3vh;
+    width: max(55px,4.5vw);
+}
+
+
+
+
