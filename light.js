@@ -54,7 +54,7 @@ function w_solve() {
 }
 
 function ngu() {
-
+    ch=0;
     document.getElementById("box").innerHTML="";
     document.getElementById("box").style.display="block";
 
