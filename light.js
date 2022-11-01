@@ -6,6 +6,8 @@ var input2;
 var Sum=input*input;
 var ch=0;
 
+alert('Make all the lights on or off!');
+
 function state_changing(x,y) {
     if(x<=input2 && y<=input2 && x>=0 && y>=0) {
     if(light[x][y]==1) {
